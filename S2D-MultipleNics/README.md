@@ -1,11 +1,11 @@
-# Create a Storage Spaces Direct (S2D) Scale-Out File Server (SOFS) Cluster with Windows Server 2016 on an existing VNET
-This template will create a Storage Spaces Direct (S2D) Scale-Out File Server (SOFS) cluster using Windows Server 2016 in an existing VNET and Active Directory environment.
+# Create a Storage Spaces Direct (S2D) Cluster with Windows Server 2016 on an existing VNET with 2 Nics on Azure Stack
+This template will create a Storage Spaces Direct (S2D) cluster using Windows Server 2016 in an existing VNET and Active Directory environment.
 
 This template creates the following resources by default:
 
 +	A Premium Storage Account for storing VM disks for each storage node
 +   A Standard Storage Account for a Cloud Witness
-+	A Windows Server 2016 cluster for storage nodes, provisioned for Storage Spaces Direct (S2D) and the Scale-Out File Server (SOFS) role
++	A Windows Server 2016 cluster for storage nodes, provisioned for Storage Spaces Direct (S2D)
 +	One Availability Set for the cluster nodes
 
 To deploy the required Azure VNET and Active Directory infrastructure, if not already in place, you may use <a href="https://github.com/Azure/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc">this template</a> to deploy the prerequisite infrastructure. 

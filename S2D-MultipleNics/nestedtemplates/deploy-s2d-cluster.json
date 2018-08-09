@@ -167,7 +167,6 @@
                         "name": "ipconfig1",
                         "properties": {
                             "privateIPAllocationMethod": "Dynamic",
-                            "primary": true,
                             "subnet": {
                                 "id": "[parameters('nicSubnetUri')]"
                             }
@@ -191,7 +190,6 @@
                         "name": "ipconfig1",
                         "properties": {
                             "privateIPAllocationMethod": "Dynamic",
-                            "primary": false,
                             "subnet": {
                                 "id": "[parameters('nicSubnet2Uri')]"
                             }

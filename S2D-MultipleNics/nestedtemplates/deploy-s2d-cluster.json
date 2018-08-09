@@ -320,8 +320,6 @@
                     "properties": {
                         "domainName": "[parameters('domainName')]",
                         "clusterName": "[variables('clusterName')]",
-                        "sofsName": "[parameters('sofsName')]",
-                        "shareName": "[parameters('shareName')]",
                         "vmNamePrefix": "[variables('vmNamePrefix')]",
                         "vmCount": "[parameters('vmCount')]",
                         "vmDiskSize": "[parameters('vmDiskSize')]",
@@ -345,15 +343,5 @@
                 }
             }
         }
-    ],
-    "outputs": {
-        "sofsName": {
-            "type": "string",
-            "value": "[parameters('sofsName')]"
-        },
-        "shareName": {
-            "type": "string",
-            "value": "[parameters('shareName')]"
-        }
-    }
+    ]
 }
